@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "316727118112",
+    "project_id": "practicafirestore-51668",
+    "storage_bucket": "practicafirestore-51668.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316727118112:android:d012e0eccdcd0fdcd6ef45",
+        "android_client_info": {
+          "package_name": "miguelangellopezblanca.psp.practicafirestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316727118112-q8biquoct2huviqm3m10vn57b26rtmgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKn6MYD_6MlJtAFW6neHyMeYYeeY2qQpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316727118112-q8biquoct2huviqm3m10vn57b26rtmgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

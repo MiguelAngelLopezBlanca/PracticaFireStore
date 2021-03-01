@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PracticaFireStore</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textView_titulo">FireStore</string>
+    <string name="button_login">Login</string>
+    <string name="button_insert_competidor">Insertar Competidor</string>
+    <string name="button_insert_judogui">Insertar Judogui</string>
+    <string name="button_listado_competidores">Listar Competidores</string>
+    <string name="button_listado_judogui">Listar Judoguis</string>
+    <string name="tv_insert_comp_nombre">Nombre</string>
+    <string name="tv_insert_comp_apellido">Apellido</string>
+    <string name="tv_insert_comp_edad">Edad</string>
+    <string name="tv_insert_comp_img">Imagen</string>
+    <string name="button_contorneado">Insertar Competidor</string>
+    <string name="tv_insert_judogui_id">ID</string>
+    <string name="tv_insert_judogui_image">Imagen</string>
+    <string name="tv_insert_judogui_talla">Talla</string>
+    <string name="tv_insert_judogui_color">Color</string>
+    <string name="tv_insert_judogui_marca">Marca</string>
+    <string name="tv_insert_judogui_modelo">Modelo</string>
+    <string name="bt_edit_comp">Actualizar</string>
+    <string name="bt_delete_comp">Borrar</string>
+    <string name="bt_edit_judogui">Actualizar</string>
+    <string name="bt_borrar_judogui">Borrar</string>
+    <string name="textView_saludo">Bienvenido</string>
+</resources>

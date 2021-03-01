@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginUserFragment">
+
+    <fragment
+        android:id="@+id/loginUserFragment"
+        android:name="miguelangellopezblanca.psp.practicafirestore.view.LoginUserFragment"
+        android:label="fragment_login_user"
+        tools:layout="@layout/fragment_login_user" >
+        <action
+            android:id="@+id/action_loginUserFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="miguelangellopezblanca.psp.practicafirestore.view.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_insertarCompetidoresFragment"
+            app:destination="@id/insertarCompetidoresFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_insertarJudoguisFragment"
+            app:destination="@id/insertarJudoguisFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_listarFragment"
+            app:destination="@id/listarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editarCompetidoresFragment"
+        android:name="miguelangellopezblanca.psp.practicafirestore.view.EditarCompetidoresFragment"
+        android:label="fragment_editar_competidores"
+        tools:layout="@layout/fragment_editar_competidores" />
+    <fragment
+        android:id="@+id/editarJudoguisFragment"
+        android:name="miguelangellopezblanca.psp.practicafirestore.view.EditarJudoguisFragment"
+        android:label="fragment_editar_judoguis"
+        tools:layout="@layout/fragment_editar_judoguis" />
+    <fragment
+        android:id="@+id/insertarCompetidoresFragment"
+        android:name="miguelangellopezblanca.psp.practicafirestore.view.InsertarCompetidoresFragment"
+        android:label="fragment_insertar_competidores"
+        tools:layout="@layout/fragment_insertar_competidores" />
+    <fragment
+        android:id="@+id/insertarJudoguisFragment"
+        android:name="miguelangellopezblanca.psp.practicafirestore.view.InsertarJudoguisFragment"
+        android:label="fragment_insertar_judoguis"
+        tools:layout="@layout/fragment_insertar_judoguis" />
+    <fragment
+        android:id="@+id/listarFragment"
+        android:name="miguelangellopezblanca.psp.practicafirestore.recyclerView.ListarFragment"
+        android:label="fragment_listar"
+        tools:layout="@layout/fragment_listar" >
+        <action
+            android:id="@+id/action_listarFragment_to_editarCompetidoresFragment"
+            app:destination="@id/editarCompetidoresFragment" />
+        <action
+            android:id="@+id/action_listarFragment_to_editarJudoguisFragment"
+            app:destination="@id/editarJudoguisFragment" />
+    </fragment>
+</navigation>
